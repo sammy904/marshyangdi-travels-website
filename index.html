@@ -10,6 +10,18 @@
   <meta property="og:description" content="Nepal's trusted IATA-accredited travel agency. Ticketing, tours, trekking &amp; custom packages since 2004." />
   <meta property="og:image" content="assets/hero/hero-1.jpg" />
   <meta property="og:type" content="website" />
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "TravelAgency",
+  "name": "Marshyangdi Travels & Tours Pvt. Ltd.",
+  "foundingDate": "2004",
+  "telephone": "+97715902993",
+  "email": "marshyangditravel@gmail.com",
+  "address": { "@type": "PostalAddress", "addressLocality": "Kathmandu", "addressCountry": "NP" },
+  "openingHours": "Mo-Sa 09:00-18:00"
+}
+</script>
   <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
@@ -30,6 +42,7 @@
     <ul class="nav-links" id="navLinks">
       <li><a href="#about">About</a></li>
       <li><a href="#services">Services</a></li>
+      <li><a href="#packages">Packages</a></li>
       <li><a href="#partners">Partners</a></li>
       <li><a href="#why-us">Why Us</a></li>
       <li><a href="#contact" class="nav-cta">Contact Us</a></li>
@@ -237,6 +250,86 @@
     </div>
   </section>
 
+
+    <!-- ── PACKAGES ── -->
+  <section class="section" id="packages">
+    <div class="container">
+      <p class="eyebrow">Packages</p>
+      <h2 class="section-title reveal">Popular trips, planned your way.</h2>
+
+      <div class="pk-filters" role="group" aria-label="Filter packages">
+        <button class="pk-filter active" data-filter="all"   aria-pressed="true">All</button>
+        <button class="pk-filter"        data-filter="trek"  aria-pressed="false">Trekking</button>
+        <button class="pk-filter"        data-filter="tour"  aria-pressed="false">Tours</button>
+        <button class="pk-filter"        data-filter="intl"  aria-pressed="false">International</button>
+      </div>
+
+      <div class="pk-grid reveal">
+
+        <article class="pk-card" data-cat="trek">
+          <div class="pk-img"><img src="assets/tours/annapurna.jpg" alt="Annapurna region trek" loading="lazy" onerror="this.style.display='none'"></div>
+          <div class="pk-body">
+            <span class="pk-meta">Trekking</span>
+            <h3>Annapurna Region Treks</h3>
+            <p>Guided treks through the Marshyangdi valley and beyond, with full preparation support.</p>
+            <a href="#contact" class="btn-outline pk-enquire" data-pkg="Annapurna Region Treks">Enquire →</a>
+          </div>
+        </article>
+
+        <article class="pk-card" data-cat="trek">
+          <div class="pk-img"><img src="assets/tours/everest.jpg" alt="Everest region trek" loading="lazy" onerror="this.style.display='none'"></div>
+          <div class="pk-body">
+            <span class="pk-meta">Trekking</span>
+            <h3>Everest Region Treks</h3>
+            <p>Expert-guided Himalayan trekking tailored to your pace and fitness.</p>
+            <a href="#contact" class="btn-outline pk-enquire" data-pkg="Everest Region Treks">Enquire →</a>
+          </div>
+        </article>
+
+        <article class="pk-card" data-cat="tour">
+          <div class="pk-img"><img src="assets/tours/kathmandu.jpg" alt="Kathmandu valley heritage tour" loading="lazy" onerror="this.style.display='none'"></div>
+          <div class="pk-body">
+            <span class="pk-meta">Guided Tour</span>
+            <h3>Kathmandu Valley Heritage</h3>
+            <p>Temples, stupas and old city squares with a knowledgeable guide.</p>
+            <a href="#contact" class="btn-outline pk-enquire" data-pkg="Kathmandu Valley Heritage Tour">Enquire →</a>
+          </div>
+        </article>
+
+        <article class="pk-card" data-cat="tour">
+          <div class="pk-img"><img src="assets/tours/pokhara.jpg" alt="Pokhara and Chitwan tour" loading="lazy" onerror="this.style.display='none'"></div>
+          <div class="pk-body">
+            <span class="pk-meta">Guided Tour</span>
+            <h3>Pokhara &amp; Chitwan</h3>
+            <p>Lakeside relaxation and jungle wildlife in one comfortable itinerary.</p>
+            <a href="#contact" class="btn-outline pk-enquire" data-pkg="Pokhara and Chitwan Tour">Enquire →</a>
+          </div>
+        </article>
+
+        <article class="pk-card" data-cat="intl">
+          <div class="pk-img"><img src="assets/tours/international.jpg" alt="International holiday package" loading="lazy" onerror="this.style.display='none'"></div>
+          <div class="pk-body">
+            <span class="pk-meta">International</span>
+            <h3>International Holidays</h3>
+            <p>Flights, hotels and tours coordinated worldwide by our IATA-accredited team.</p>
+            <a href="#contact" class="btn-outline pk-enquire" data-pkg="International Holiday Package">Enquire →</a>
+          </div>
+        </article>
+
+        <article class="pk-card" data-cat="intl tour">
+          <div class="pk-img"><img src="assets/tours/custom.jpg" alt="Custom travel package" loading="lazy" onerror="this.style.display='none'"></div>
+          <div class="pk-body">
+            <span class="pk-meta">Custom</span>
+            <h3>Build Your Own Package</h3>
+            <p>Tell us your dates, budget and style and we'll design the trip around you.</p>
+            <a href="#contact" class="btn-outline pk-enquire" data-pkg="Custom Package">Enquire →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
   <!-- ── PARTNERS ── -->
   <section class="section" id="partners">
     <div class="container">
@@ -317,6 +410,33 @@
       </div>
     </div>
   </section>
+ 
+
+  <!-- ── FAQ ── -->
+  <section class="section section-alt" id="faq">
+    <div class="container">
+      <p class="eyebrow">FAQ</p>
+      <h2 class="section-title reveal">Common questions.</h2>
+      <div class="faq reveal">
+        <details>
+          <summary>Are you an IATA-accredited agency?</summary>
+          <p>Yes. Marshyangdi Travels &amp; Tours is IATA-accredited and has been serving travelers since 2004.</p>
+        </details>
+        <details>
+          <summary>Can you arrange a custom trip?</summary>
+          <p>Yes. Share your dates, budget and interests through the enquiry form and we'll prepare tailored options.</p>
+        </details>
+        <details>
+          <summary>Which services do you offer?</summary>
+          <p>Domestic and international ticketing, guided and international tours, trekking, hotel bookings, car rental and custom packages.</p>
+        </details>
+        <details>
+          <summary>How can I contact you?</summary>
+          <p>Email marshyangditravel@gmail.com, call 01-5902993, or use the form below. We're open Monday to Saturday, 9:00 AM – 6:00 PM.</p>
+        </details>
+      </div>
+    </div>
+  </section>
 
   <!-- ── CONTACT ── -->
   <section class="section" id="contact">
@@ -335,7 +455,7 @@
             </div>
             <div class="ci">
               <span class="ci-label">Phone</span>
-              <a href="tel:015902993" class="ci-val">01-5902993</a>
+              <a href="tel:+977 015902993" class="ci-val">01-5902993</a>
             
             </div>
             <div class="ci">
@@ -348,7 +468,7 @@
             </div>
           </div>
 
-          <form class="enquiry-form mt" action="https://formspree.io/f/[YOUR_FORMSPREE_ID]" method="POST" novalidate>
+          <form class="enquiry-form mt" action="https://formspree.io/f/mgaaqblv" method="POST">
             <div class="ef-row">
               <label class="ef-field">
                 <span class="ef-label">Name</span>
@@ -413,6 +533,12 @@
     </nav>
   </div>
 </footer>
+<a class="wa-float" href="https://wa.me/9779801024971?text=Hello%20Marshyangdi%20Travels%2C%20I%20need%20help%20planning%20a%20trip" target="_blank" aria-label="Chat on WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/>
+    <path transform="translate(6 6) scale(.5)" d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+  </svg>
+</a>
 
 <!-- ════════════════ SCRIPTS ════════════════ -->
 <script>
@@ -427,6 +553,7 @@
   const slides = document.querySelectorAll('.slide');
   const pills  = document.querySelectorAll('.spill');
   let cur = 0, tmr;
+  window.addEventListener('load', function () { ensureBg(1); });
 
   function ensureBg(i) {
     var el = slides[i];
@@ -442,6 +569,7 @@
     pills[cur].classList.remove('active');
     cur = (i + slides.length) % slides.length;
     ensureBg(cur);
+    ensureBg((cur + 1) % slides.length);
     slides[cur].classList.add('active');
     pills[cur].classList.add('active');
   }
@@ -548,7 +676,34 @@
       });
     });
   }
+  /* ── Package filter ── */
+  var pkBtns  = document.querySelectorAll('.pk-filter');
+  var pkCards = document.querySelectorAll('.pk-card');
+  pkBtns.forEach(function (b) {
+    b.addEventListener('click', function () {
+      pkBtns.forEach(function (x) {
+        x.classList.remove('active');
+        x.setAttribute('aria-pressed', 'false');
+      });
+      b.classList.add('active');
+      b.setAttribute('aria-pressed', 'true');
+      var f = b.getAttribute('data-filter');
+      pkCards.forEach(function (c) {
+        var cats = (c.getAttribute('data-cat') || '').split(' ');
+        c.classList.toggle('hide', f !== 'all' && cats.indexOf(f) === -1);
+      });
+    });
+  });
 
+  /* ── Pre-fill enquiry message from a package ── */
+  var msgBox = document.querySelector('.enquiry-form textarea[name="message"]');
+  document.querySelectorAll('.pk-enquire').forEach(function (a) {
+    a.addEventListener('click', function () {
+      if (msgBox && !msgBox.value) {
+        msgBox.value = "Hi, I'm interested in: " + a.getAttribute('data-pkg') + ". Please share details and options.";
+      }
+    });
+  });
 }());
 </script>
 </body>
